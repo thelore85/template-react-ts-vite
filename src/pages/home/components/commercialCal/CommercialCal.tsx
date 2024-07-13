@@ -1,5 +1,4 @@
 import {Button} from '@/components/ui/button'
-import {Link} from 'react-router-dom'
 import commercialProImg from '/img/homepage/doc_group_calendar.png'
 import Section from '@/components/ui/section'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
