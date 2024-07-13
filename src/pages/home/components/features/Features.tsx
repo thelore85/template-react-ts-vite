@@ -1,6 +1,6 @@
 import {Card} from '@/components/ui/card'
 import Section from '@/components/ui/section'
-import {faBell, faCalendar, faCheck, faLink, faList, faPeopleGroup, faShop} from '@fortawesome/free-solid-svg-icons'
+import {faBell, faCalendar, faCheck, faList, faPeopleGroup, faShop} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 type Props = {}

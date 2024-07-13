@@ -1,12 +1,10 @@
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faCalendar} from '@fortawesome/free-solid-svg-icons'
 import Section from '@/components/ui/section'
 import LogoWhite from '@/components/common/logo/LogoWhite'
 
 export default function ContactSection() {
   return (
-    <Section bgColor="bg-primary" paddingY="28">
-      <div className="w-full flex flex-wrap text-white font-light justify-between mb-10 ">
+    <Section bgColor="bg-primary">
+      <div className="w-full flex flex-wrap text-white font-light justify-between mb-10 py-28">
         <div className="w-full md:w-3/12">
           <h4 className="text-lg font-bold mb-5">Contacts</h4>
           <a className="block mb-2" href="mailto:info@plannermed.com">

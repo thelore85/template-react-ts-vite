@@ -46,8 +46,8 @@ export default function Pricing({}: Props) {
             </Card>
           </div>
           <div className="w-full lg:w-1/3 mb-10 md:mb0 md:pe-10">
-            <Card className="p-10 bg-indigo-700 text-primary-foreground ">
-              <div className="text-center py-10 mb-2 border-b-gray-500 border-b-2">
+            <Card className="p-10 bg-accent text-primary-foreground ">
+              <div className="text-center py-10 mb-2 border-b-white border-b-2">
                 <h3 className="font-extrabold text-5xl mb-5">Premium</h3>
                 <p className="font-extralight leading-4 italic">Take advantage of promo price for friends and family.</p>
               </div>
