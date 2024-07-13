@@ -26,11 +26,13 @@ export default function CommercialCal({}: Props) {
           </div>
           <div>
             <Button size="lg" variant="secondary" asChild className="rounded-full me-4">
-              <Link to="/login">Start Now</Link>
+              <a href="https://app.plannermed.com/signup" target="_blank">
+                Free Account
+              </a>
             </Button>
-            <Button size="lg" variant="outline" asChild className="rounded-full">
-              <Link to="/login">Learn More</Link>
-            </Button>
+            {/* <Button size="lg" variant="outline" asChild className="rounded-full">
+              <Link to="#features">Learn More</Link>
+            </Button> */}
           </div>
         </div>
       </div>

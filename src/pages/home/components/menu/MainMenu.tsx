@@ -16,7 +16,9 @@ export default function MainMenu({}: Props) {
           </div>
           <div className="hidden md:block">
             <Button variant="default" className=" rounded-full px-10">
-              Start Now
+              <a href="https://app.plannermed.com/signup" target="_blank">
+                Start Now
+              </a>
             </Button>
           </div>
         </div>

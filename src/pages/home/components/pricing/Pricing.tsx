@@ -37,9 +37,9 @@ export default function Pricing({}: Props) {
                 </ul>
               </div>
               <div>
-                <Button size={'lg'} className="w-full">
-                  <a href="https://app.plannermed.com/signup" target="_blanck">
-                    Start Now
+                <Button size={'lg'} asChild className="w-full">
+                  <a href="https://app.plannermed.com/signup" target="_blank">
+                    Open Account
                   </a>
                 </Button>
               </div>

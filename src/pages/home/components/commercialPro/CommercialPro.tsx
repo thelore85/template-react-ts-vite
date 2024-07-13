@@ -22,7 +22,9 @@ export default function CommercialPro({}: Props) {
         </div>
         <div className="w-full pb-20 text-center">
           <Button size={'lg'} className="rounded-full w-1/2">
-            Join the family
+            <a href="https://app.plannermed.com/signup" target="_blank">
+              Join the familly
+            </a>
           </Button>
         </div>
       </div>
