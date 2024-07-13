@@ -6,7 +6,7 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
-    --gray: 150 10% 95%;
+    --gray: 230 20% 98%;
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
@@ -53,6 +53,11 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
+}
+
+/* Personalization  */
+.bg-gray {
+  background-color: hsl(var(--gray));
 }
 
 @layer base {
